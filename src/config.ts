@@ -3,9 +3,9 @@ import { ConfigProps } from "./types/config";
 export const config = {
   appName: "$whoami",
   appDesignation: "Software Engineer",
-  appDescription: `Hi, I'm Shydev. I'm funny.`,
+  appDescription: `Hi, I'm Rohan. I'm funny.`,
 
-  domainName: "ayushworks.com",
+  domainName: "rohanworks.com",
 
   colors: {
     theme: "dark",
@@ -13,15 +13,14 @@ export const config = {
   },
 
   social: {
-    github: "https://github.com/ayush-that",
-    linkedin: "https://www.linkedin.com/in/ayush-that/",
-    instagram: "https://www.instagram.com/fitlesshot/",
-    discord: "https://discordapp.com/users/shydev69",
-    email: "hi@ayushworks.com",
-    phone: "+918810289569",
-    youtube: "https://www.youtube.com/@shydev69",
-    twitter: "https://x.com/shydev69",
-    buymeacoffee: "https://buymeacoffee.com/shydev69",
+    github: "https://github.com/rohanrs09",
+    linkedin: "https://www.linkedin.com/in/rohan-shelke-bba43b22b/",
+    instagram: "https://www.instagram.com/layfirto/",
+    twitter: "https://x.com/RohanSh52817293 ",
+    // discord: "https://discordapp.com/users/xxxx",
+    email: "shelkerohan7309@gmail.com",
+    phone: "+919359477309",
+    youtube: "https://www.youtube.com/@shodhakpravsi",
   },
 
   auth: {

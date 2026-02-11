@@ -12,43 +12,35 @@ export type TWorkExperience = {
 const workExperiences: TWorkExperience[] = [
   {
     id: createId(),
-    company: "Bez",
-    website: "https://usebez.ai/",
+    company: "Cognizant Technology Solutions",
+    website: "https://www.cognizant.com/",
     role: "Software Engineer",
     description:
-      "Helps you to create original jewel designs, visuals, and marketing materials in minutes using AI agents.",
+      "Building and improving enterprise web applications with full-stack development. Worked on API integrations, performance optimization, and UI improvements in a team environment.",
     stacks: [
-      "Next.js",
+      "React.js",
+      "ASP.NET Core",
+      "SQL Server",
+      "REST APIs",
       "TypeScript",
-      "Firebase",
-      "GCP",
-      "OpenAI SDK",
-      "FastAPI",
-      "Express",
-      "Langfuse",
-      "BullMQ",
-      "Redis",
       "TailwindCSS",
-      "shadcn",
     ],
   },
   {
     id: createId(),
-    company: "CallPrep",
-    website: "https://www.callprep.io/",
-    role: "Software Engineer (Intern)",
+    company: "Freelancing",
+    website: "#",
+    role: "Web Developer Intern",
     description:
-      "Built a scraper that scraped 60k PDFs (financial docs of banks) / hour, implemented RAG, & built a chatbot.",
-    stacks: ["Django", "Celery", "Redis", "React", "Selenium"],
-  },
-  {
-    id: createId(),
-    company: "EOD Adventure Park",
-    website: "https://student.eodparks.com/",
-    role: "Full Stack Developer",
-    description:
-      "I solo handle the entire software and infra of EOD Adventure Park, Delhi. I built CRM, dashboards, chatbots, landing pages.",
-    stacks: ["AWS", "MERN"],
+      "Improved web app performance and usability, contributed to front-end and basic back-end features, and streamlined payment workflows.",
+    stacks: [
+      "React.js",
+      "JavaScript",
+      "Node.js",
+      "Payment Integrations",
+      "Express.js",
+      "MongoDB",
+    ],
   },
 ];
 

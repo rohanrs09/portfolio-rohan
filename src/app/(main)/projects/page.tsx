@@ -23,7 +23,13 @@ const ProjectsPage = async ({
   return (
     <div className="!mt-8">
       <div className="flex flex-col flex-wrap justify-between gap-4 sm:flex-row sm:items-center">
-        <h1 className="text-left text-xl font-medium"> All Projects </h1>
+        <div>
+          <h1 className="text-left text-xl font-medium">All Projects</h1>
+          <div className="text-sm text-muted-foreground">
+            {filteredProjects.length} {filteredProjects.length === 1 ? 'project' : 'projects'}
+            {resolvedSearchParams.search && ` matching "${decodeURIComponent(resolvedSearchParams.search)}"`}
+          </div>
+        </div>
         <SearchInput placeholder="Search projects..." />
       </div>
 

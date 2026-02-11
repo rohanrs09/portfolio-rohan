@@ -8,17 +8,24 @@ const GitHubCalendar = dynamic(() => import("react-github-calendar"), {
 
 const GitHubContributions = () => {
   return (
-    <div className="w-full">
-      <GitHubCalendar
-        username="ayush-that"
-        colorScheme="dark"
-        fontSize={12}
-        blockSize={12}
-        theme={{
-          dark: ["#1b1b1b", "#333333", "#666666", "#999999", "#ffffff"],
-        }}
-      />
-    </div>
+    <section aria-label="github-contributions" className="space-y-4">
+      <h2 className="font-serif text-2xl sm:text-3xl">GitHub Contributions</h2>
+      <div className="w-full">
+        <GitHubCalendar
+          username="rohanrs09"
+          colorScheme="dark"
+          fontSize={12}
+          blockSize={12}
+          theme={{
+            dark: ["#1b1b1b", "#333333", "#666666", "#999999", "#ffffff"],
+          }}
+          throwOnError={false}
+        />
+      </div>
+      <p className="text-sm text-muted-foreground text-center">
+        Contributions from public repositories only
+      </p>
+    </section>
   );
 };
 
