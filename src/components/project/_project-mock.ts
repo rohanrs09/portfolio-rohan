@@ -6,7 +6,7 @@ import aiTutorCover from "~/assets/images/cover/aitutor.png";
 import aiContentCover from "~/assets/images/cover/aigen.png";
 import slideAuraCover from "~/assets/images/cover/slideaura.png";
 import hotelBookingCover from "~/assets/images/cover/hotel.png";
-import aiLogoGeneratorCover from "~/assets/images/cover/ailogogenerator.png";
+import aiLogoGeneratorCover from "~/assets/images/cover/ailogo.png";
 
 const projects = [
   {
@@ -68,7 +68,7 @@ const projects = [
     description:
       "AI-powered logo generator tool that creates unique brand logos based on user text input and style preferences.",
     deployedURL: "#",
-    cover: aiContentCover, // Placeholder image
+    cover: aiLogoGeneratorCover, // Placeholder image
     stacks: ["Next.js", "TypeScript", "Tailwind CSS", "AI API", "Logo Generation"],
     isRepo: true,
     repoUrl: "https://github.com/rohanrs09/ai-logo-generator",
